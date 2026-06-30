@@ -91,12 +91,6 @@ Computation time: 0.0037 ms
 
 ---
 
-## Notes
-
-The station names are drawn from the real Kolkata Metro, but the connections,
-travel times, and the way the lines are joined together are simplified for
-this simulation — it is not an exact map of the live network.
-
 ## Possible Extensions
 
 - Add interchange/line metadata and report line changes in the route
