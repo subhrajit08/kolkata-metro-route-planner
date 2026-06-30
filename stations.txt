@@ -1,0 +1,61 @@
+# Kolkata Metro Route Planner - Network Data
+# Format: StationA,StationB,TimeInMinutes
+# (50 stations across simulated Blue, Green, Purple lines + a North extension)
+
+# --- Line 1 (Blue Line): Dakshineswar to Kavi Subhash ---
+Dakshineswar,Baranagar,3
+Baranagar,Noapara,2
+Noapara,Dum Dum,2
+Dum Dum,Belgachia,2
+Belgachia,Shyambazar,2
+Shyambazar,Shobhabazar Sutanuti,1
+Shobhabazar Sutanuti,Girish Park,2
+Girish Park,Mahatma Gandhi Road,2
+Mahatma Gandhi Road,Central,2
+Central,Chandni Chowk,1
+Chandni Chowk,Esplanade,2
+Esplanade,Park Street,2
+Park Street,Maidan,1
+Maidan,Rabindra Sadan,2
+Rabindra Sadan,Netaji Bhavan,1
+Netaji Bhavan,Jatin Das Park,2
+Jatin Das Park,Kalighat,2
+Kalighat,Rabindra Sarobar,2
+Rabindra Sarobar,Netaji,2
+Netaji,Masterda Surya Sen,2
+Masterda Surya Sen,Gitanjali,2
+Gitanjali,Kavi Nazrul,2
+Kavi Nazrul,Shahid Khudiram,2
+Shahid Khudiram,Kavi Subhash,2
+
+# --- Line 2 (Green Line): Howrah Maidan to Salt Lake Sector V ---
+Howrah Maidan,Howrah,2
+Howrah,Mahakaran,3
+Mahakaran,Esplanade,2
+Esplanade,Sealdah,3
+Sealdah,Phoolbagan,2
+Phoolbagan,Salt Lake Stadium,2
+Salt Lake Stadium,Bengal Chemical,2
+Bengal Chemical,City Centre,2
+City Centre,Central Park,2
+Central Park,Karunamoyee,2
+Karunamoyee,Salt Lake Sector V,2
+
+# --- Line 3 (Purple Line): Joka to Majerhat (links into Line 1) ---
+Joka,Thakurpukur,3
+Thakurpukur,Sakherbazar,2
+Sakherbazar,Behala Chowrasta,2
+Behala Chowrasta,Behala Bazar,2
+Behala Bazar,Taratala,2
+Taratala,Majerhat,2
+Majerhat,Jatin Das Park,4
+
+# --- North Extension Branch (off Dum Dum, loops back via Phoolbagan) ---
+Dum Dum,Birati,4
+Birati,Madhyamgram,3
+Madhyamgram,Jessore Road,3
+Jessore Road,VIP Road,3
+VIP Road,Baguiati,2
+Baguiati,Kestopur,2
+Kestopur,Beleghata,3
+Beleghata,Phoolbagan,2
